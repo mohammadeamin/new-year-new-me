@@ -18,6 +18,15 @@
     border-radius:5px;
     border:none;
 }
+.btn2{
+    background-color: #FFFFFF;
+    color:#F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    padding:20px 36px;
+    border-radius:5px;
+    border:none;
+}
 
 /* main styles */
 
@@ -41,9 +50,6 @@
   line-height: 26px;
   color:#444343;
   margin-bottom: 32px;
-}
-#previous-failures{
-
 }
 .failures-container{
     display: flex;
@@ -99,8 +105,60 @@
     font-weight: 600;
     color:#444343;
 }
-#mindset{
-    background-image:url("../images/watch.png"), url("../images/gradient2.png");
-    background-repeat: no-repeat;
-    background-position: center;
+.mindset-container{
+    margin: 130px 230px;
+    background: url(../images/gradient2.png), url(../images/watch.png);
+    
+}
+.mindset-content{
+    padding: 59px;
+}
+.mindset-content h1{
+    max-width: 459px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+footer{
+    background-color: #151414;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    padding: 130px 230px;
+}
+.footer-container .future{
+    max-width: 485px;
+}
+.footer-container .future h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.footer-container .future p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.footer-container .future .icons a{
+margin-right: 35px;
+}
+.footer-container .form{
+    max-width: 325px;
+    padding: 0 0 113px 331px;
+}
+.footer-container .form h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+.footer-container .form input{
+    padding: 21px 158px 20px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 16px;
 }
